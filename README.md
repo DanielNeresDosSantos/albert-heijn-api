@@ -1,5 +1,7 @@
 # Albert Heijn API
 
+[![npm version](https://img.shields.io/npm/v/@louaycoding/albert-heijn-api)](https://www.npmjs.com/package/@louaycoding/albert-heijn-api)
+[![npm downloads](https://img.shields.io/npm/dm/@louaycoding/albert-heijn-api)](https://www.npmjs.com/package/@louaycoding/albert-heijn-api)
 [![GitHub release](https://img.shields.io/github/v/release/LouayCoding/albert-heijn-api)](https://github.com/LouayCoding/albert-heijn-api/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
