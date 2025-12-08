@@ -1,0 +1,41 @@
+{
+  "name": "albert-heijn-api",
+  "version": "1.0.0",
+  "description": "Unofficial REST API voor Albert Heijn producten - Haal productinformatie, prijzen, ingrediënten en allergenen op",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "albert-heijn",
+    "albert heijn api",
+    "ah api",
+    "supermarkt api",
+    "boodschappen api",
+    "grocery api",
+    "product api",
+    "scraper",
+    "netherlands",
+    "nederland",
+    "food api",
+    "ingredients api"
+  ],
+  "author": "Louay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louay/albert-heijn-api"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
