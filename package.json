@@ -1,9 +1,18 @@
 {
-  "name": "albert-heijn-api",
+  "name": "@louaycoding/albert-heijn-api",
   "version": "1.0.0",
   "description": "Unofficial REST API voor Albert Heijn producten - Haal productinformatie, prijzen, ingrediënten en allergenen op",
   "main": "src/server.js",
   "type": "module",
+  "bin": {
+    "ah-api": "./bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",

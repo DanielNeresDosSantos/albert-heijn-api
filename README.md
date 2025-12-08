@@ -8,6 +8,13 @@ Unofficial REST API voor Albert Heijn producten. Haal productinformatie, prijzen
 
 ## Installatie
 
+### Via npm (makkelijkst)
+```bash
+npm install -g @louaycoding/albert-heijn-api
+ah-api
+```
+
+### Via GitHub
 ```bash
 git clone https://github.com/LouayCoding/albert-heijn-api.git
 cd albert-heijn-api
